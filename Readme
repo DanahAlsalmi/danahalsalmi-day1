@@ -1,0 +1,50 @@
+public class Main {
+    public static void main(String[] args) {
+
+        //FirstEx
+        String fName= "Danah";
+        String lName= "Alsalmi";
+        System.out.println(fName+" "+lName);
+        System.out.println("------------");
+        //SecondEx
+        int age= 21;
+        System.out.println("Age = "+age);
+        System.out.println("------------");
+
+        //ThirdEx
+        int x=2;
+        int y= 4;
+        int sum= x+y ;
+        System.out.println("x+y= " + sum);
+        System.out.println("sum div 2 = "+sum/2);
+        System.out.println("------------");
+
+        //FourthEx
+       int Length=5;
+       int width=7;
+       int perimeter=(Length+width)*2;
+       int area= Length+width;
+
+        System.out.println("the perimeter is = "+perimeter);
+        System.out.println("the area is = "+area);
+        System.out.println("------------");
+
+        //FifthEx
+        int num1=23;
+        int num2=45;
+        boolean z=(num1==num2);
+        System.out.println("is it equal = "+ z);
+        System.out.println("------------");
+
+        //sixthEx
+        int a=55;
+        int b =70;
+        System.out.println(a<50 && a<b);
+        System.out.println("------------");
+
+        //seventhEx
+        System.out.println(a<50 || a<b);
+
+
+    }
+}
